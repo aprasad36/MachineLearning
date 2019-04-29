@@ -2,7 +2,7 @@
 Assumptions: pixels have a greyscale value from 0 to 1
 */
 
-// Somewhere need imputs to hold greyscale values
+// Somewhere need inputs to hold greyscale values
 // Hidden layer has 36 nodes
 
 import java.util.Random;
