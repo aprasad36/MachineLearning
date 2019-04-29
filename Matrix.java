@@ -1,4 +1,4 @@
-// future optimization, make all the matrix methods return new matrices maybe
+// For future optimization, make all the matrix methods return new matrices
 // alternative keep changing the original matrix, but make a copy outside of this class
 
 
