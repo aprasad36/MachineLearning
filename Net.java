@@ -97,8 +97,8 @@ public class Net {
         Vector in2 = new Vector (inp2);
         Vector expected = new Vector(exp);
         Vector expected2 = new Vector(exp2);
-
         for (int i = 0; i < runs; i++) {
+            System.out.println(Oresult);
             if (i % 2 == 0) {
                 forwardPropogation(in);
                 backPropogation(in, expected);
