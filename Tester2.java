@@ -1,12 +1,12 @@
 
 public class Tester2 {
 	public static void main(String[] args) {
-		double[][] c1 = { { 2 ,  3 }, { 4 , 5 }};
+		double[][] c1 = { { 2 ,  3 }};
 		double[] c2 = { 3 , 6 };
 		Matrix m1 = new Matrix(c1);
 		Vector v2 = new Vector(c2);
 		m1.exp(-1);
-		Matrix result = v2.cross(m1);
+		Vector result = v2.cross(m1);
 		System.out.println(result);
 
 	}
